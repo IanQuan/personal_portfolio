@@ -56,7 +56,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-xl text-center md:text-start">
-          I am a student in University of Toronto, class of 2025, pursuing a double major in Computer Science Applied Statistics. I started my programming journey in my first year of university, and I am comfortable coding in Java, Python, C, HTML, CSS, Javascript and React. When I'm not in classes, I'm often doing research or ML software development. I am interested in finding a software engineering, data science, or machine learning internship.
+          I am a student at University of Toronto, class of 2025, pursuing a double major in Computer Science and Applied Statistics. I started my programming journey in my first year of university, and I am comfortable coding in Java, Python, C, HTML, CSS, Javascript and React. When I'm not in classes, I'm often doing research or ML software development. I am interested in finding a software engineering, data science, or machine learning internship.
           </p>
           </motion.div>
 
