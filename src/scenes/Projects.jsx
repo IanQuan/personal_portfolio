@@ -57,7 +57,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          my projectssss
+          
         </p>
       </motion.div>
 
@@ -79,13 +79,13 @@ const Projects = () => {
           </div>
           <Project 
             title="NBA MVP Predictor" 
-            description="Description for Project 1" 
+            description="Web scrapped 30 years of NBA player statistics using BS4 and Requests. Trained and back-tested linear regression model with scikit-learn to predict the NBA MVP for a given season, achieving an accuracy rate of over 85%" 
             detailsLink="https://github.com/IanQuan/NBA_MVP_prediction" 
             image="../assets/project-1.jpeg"
           />
           <Project 
             title="EduML" 
-            description="Use various machine learning algorithm to predict teh correctness of students's answers on diagnostic questions" 
+            description="Use various machine learning algorithm to predict the correctness of students's answers on diagnostic questions" 
             detailsLink="https://github.com/IanQuan/CSC311_S2023_project/tree/main" 
             image="../assets/CSC311-project.png"
           />
@@ -100,17 +100,15 @@ const Projects = () => {
           <Project 
             title="Personal Website" 
             description="Personal website written in React, tailwind css" 
-            detailsLink="https://github.com/yourgithubusername/project1" 
-            image="../assets/project-4.jpeg"
+            detailsLink="https://github.com/IanQuan/personal_portfolio" 
+            image="../assets/personal_website.png"
           />
-          <Project 
+          {/* <Project 
             title="Project 5" 
             description="Description for Project 5" 
             detailsLink="https://github.com/yourgithubusername/project1" 
             image="../assets/project-5.jpeg"
           />
-
-          {/* ROW 3 */}
           <Project 
             title="Project 6" 
             description="Description for Project 5" 
@@ -122,7 +120,7 @@ const Projects = () => {
             description="Description for Project 5" 
             detailsLink="https://github.com/yourgithubusername/project1" 
             image="../assets/project-5.jpeg"
-          />
+          /> */}
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
